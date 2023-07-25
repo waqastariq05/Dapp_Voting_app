@@ -1,0 +1,25 @@
+.form h2 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.form label {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.form input {
+    padding: 10px;
+}
+
+.form .form-check-label {
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.form .form-check-input {
+    padding: 5px;
+}

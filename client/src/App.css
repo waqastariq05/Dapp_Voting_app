@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+:root {
+    --blue: #5d5dd8;
+    --darkBlue: #24416b;
+    --black: #242D49;
+    --gray: #f8f7fd;
+    --blueCard: #DDF8FE;
+}
+
+
+.row {
+    row-gap: 30px;
+}
+
+.App {
+    font-family: "open sans";
+    font-weight: 600;
+    color: var(--black);
+    background-color: var(--gray);
+}
+
+.heading {
+    margin-bottom: 30px;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: 700;
+    font-family: 'Roboto';
+}
+
+.date {
+    font-size: 20px;
+    font-family: 700;
+    font-family: 'Roboto';
+}
+
+a:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+input:focus,
+input:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #dee2e6 !important;
+}
+
+textarea:focus,
+textarea:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #dee2e6 !important;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.btn {
+    background-color: var(--blue);
+    border-radius: 0;
+    color: #fff;
+    padding: 10px 40px 10px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.btn:hover {
+    background: var(--darkBlue);
+    color: #fff;
+}
+
+.btn:focus-visible {
+    background: var(--darkBlue);
+}
+
+.btn:active {
+    color: #fff !important;
+    background: var(--darkBlue) !important;
+}
+
+.navbar {
+    padding: 10px 20px;
+}
+
+.navbar .navbar-brand {
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Roboto';
+    color: var(--blue);
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-brand .fa-circle-check {
+    margin-right: 10px;
+    color: var(--darkBlue);
+}
+
+.pad-50 {
+    padding: 50px;
+}
+
+
+.nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    padding: 50px 20px;
+    height: 100vh;
+}
+
+.nav .nav-link {
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--black);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.nav .nav-link:hover {
+    color: var(--blue);
+}
+
+.nav .nav-link.active {
+    color: var(--blue);
+}
+
+.nav .nav-link .icon {
+    color: var(--black);
+    margin-right: 10px;
+}
+
+.nav .nav-link:hover .icon {
+    color: var(--black);
+}
